@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    min-height: auto;
+}
+.flex-container{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E8EBE4;
+    padding: 100px 0px;
+   
+    }
+
+.img {
+    width: 22em;
+    height: 22em;
+    border: solid 1px gray;
+    border-radius: 10px;
+
+}
+    
+.flex-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.large {
+    font-size: 45px;
+}
+
+.smaller {
+    font-size: 16px;
+}
+
+.column {
+    display: flex;
+    flex-direction:column; 
+    background-color: white;
+    
+}
+.maria {
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 2px gray;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px gray;
+   
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border: solid 2px gray;
+}
